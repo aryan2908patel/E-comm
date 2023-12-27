@@ -1,0 +1,22 @@
+.horizontal-box-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 20px;
+}
+
+.box1 {
+    width: 10vw;
+    height: 20vh;
+    background-color: #e7e709;
+    margin: 30px;
+
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 768px) {
+    .box1 {
+        width: 100%; /* Set to 100% width for smaller screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+}
