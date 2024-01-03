@@ -28,8 +28,8 @@ const About = (props: Props) => {
           </div>
           <div>
             <h2 className='text-blue-800 text-4xl lg:text-6xl font-light mt-4 md:mt-0 pt-0'>We, are Brancy</h2>
-            <p className='text-blue-800 underline text-lg'>Best cosmetics provider</p>
-            <p className='text-blue-800'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus possimus error tenetur sunt, repudiandae asperiores, ullam ex non maxime libero.</p>
+            <p className='text-blue-800 underline text-lg text-left'>Best cosmetics provider</p>
+            <p className='text-blue-800 text-left mt-2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus possimus error tenetur sunt, repudiandae asperiores, ullam ex non maxime libero.</p>
           </div>
           {/* Other content in the first div */}
         </div>

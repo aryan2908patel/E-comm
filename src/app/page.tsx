@@ -1,3 +1,4 @@
+import Items from '@/components/item/items';
 import Image from 'next/image';
 import Link from 'next/link';
 // import Baner from './modules/baner/baner';
@@ -14,7 +15,7 @@ export default function Home() {
       {/* <Register /> */}
       {/*<Baner />*/}
       {/* <Panel /> */}
-      
+      <Items/>
     </main>
   );
 };
